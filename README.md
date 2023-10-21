@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# Clicks Counter App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This is a simple clicks counter application built with React.js.
+It allows users to increment or reset a counter value and displays the total number of clicks.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Increment and reset buttons to modify the click count.
+- Displays the current click count in real-time.
+- Simple and intuitive user interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A live demo of this clicks counter app can be viewed at [clicks-counter](https://gervislm.github.io/clicks-counter/).
 
-### `npm test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot 1](https://files.fm/thumb.php?i=vx9s94jn2)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js and npm installed on your machine.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone this repository:
+   ```
+   git clone https://github.com/gervislm/clicks-counter.git
+   ```
+   
+2. Navigate to the project directory:
+   ```
+   cd clicks-counter
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies:
+   ```
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Start the application:
+   ```
+   npm start
+   ```
+   This will run the app on `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Open a web browser and go to `http://localhost:3000` to view the app.
 
-## Learn More
+3. Use the increment and reset buttons to modify the click count.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Implementation Details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- This application is built using React.js, a popular JavaScript library for building user interfaces.
+- It maintains the click count as a component state and updates it in real-time when the buttons are clicked.
+- The UI components are designed for a clean and intuitive user experience.
 
-### Code Splitting
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `src`: Contains the React components and application logic.
+   - `components`: Reusable UI components (Button.js, Counter.js).
+   - `App.js`: Main application component.
+   - `index.js`: Entry point of the application.
+- `public`: Contains static files (HTML, images).
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to open an issue or submit a pull request for any improvements or new features you'd like to see.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This project is licensed under the [MIT License](LICENSE).
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The React team for creating such a powerful and developer-friendly library.
