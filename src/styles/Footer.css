@@ -1,0 +1,51 @@
+.Footer-gitHub {
+  position: sticky;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100px;
+  padding-left: 10px;
+}
+
+.Footer-gitHub p {
+  margin: 0;
+}
+
+.Footer-gitHub a {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #ffffff80;
+  padding: 5px 10px;
+  background-color: #ffffff33;
+  margin-left: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff80;
+  font-weight: 700;
+}
+
+.Footer-gitHub a:hover {
+  color: #fdfdfd;
+  box-shadow: 2px 2px 5px #ffffff;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .Footer-gitHub {
+    height: 80px;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  .Footer-gitHub p {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+  }
+
+  .Footer-gitHub a {
+    margin: 10px 0 0 0;
+  }
+}

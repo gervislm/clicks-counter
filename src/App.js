@@ -1,10 +1,10 @@
-import './App.css';
-import Button from './components/Button';
-import Counter from './components/Counter';
-import { useState } from 'react';
+import "./App.css";
+import Button from "./components/Button";
+import Counter from "./components/Counter";
+import { useState } from "react";
+import { Footer } from "./components/Footer";
 
 function App() {
-
   const [clickNum, setClickNum] = useState(0);
 
   const clickManage = () => {
@@ -17,22 +17,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className='main-container'>
-        <Counter
-        clickNum={clickNum} />
+      <main className="main-container">
+        <Counter clickNum={clickNum} />
 
-        <Button
-          text='Click'
-          clickButton={true}
-          clickManage={clickManage} />
+        <Button text="Click" clickButton={true} clickManage={clickManage} />
 
-        <Button
-        text='Reset'
-        clickButton={false}
-        clickManage={resetCounter} />
-      </div>
+        <Button text="Reset" clickButton={false} clickManage={resetCounter} />
+      </main>
+      <Footer />
     </div>
   );
-};
+}
 
 export default App;
